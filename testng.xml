@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Example test run" parallel="tests">
+<suite name="Example test run">
   <test name="edgetest">
   <parameter name ="browser" value="edge"/>
   <parameter name ="title" value="Log in to Facebook"/>
@@ -8,16 +8,6 @@
       <class name="TestNG.TestCases"/>
     </classes>
   </test>
+ 
   
-  
-  
-  
-  <test name="chrometest">
-  <parameter name ="browser" value="chrome"/>
-  <parameter name ="title" value="Log in to Facebook"/>
-  
-    <classes>
-      <class name="TestNG.TestCases"/>
-    </classes>
-  </test>
 </suite>
