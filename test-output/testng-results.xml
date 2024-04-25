@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T10:38:30 IST" name="Default suite" finished-at="2024-04-25T10:38:51 IST" duration-ms="20882">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T10:38:30 IST" name="Default test" finished-at="2024-04-25T10:38:51 IST" duration-ms="20882">
+      <class name="Testng.Testcases">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:Testng.Testcases@131774fe]" started-at="2024-04-25T10:38:30 IST" name="launchbrowser" finished-at="2024-04-25T10:38:38 IST" duration-ms="8368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="GetTitle(java.lang.String)[pri:0, instance:Testng.Testcases@131774fe]" started-at="2024-04-25T10:38:38 IST" name="GetTitle" finished-at="2024-04-25T10:38:38 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Log in to Facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTitle -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testng.Testcases@131774fe]" started-at="2024-04-25T10:38:38 IST" name="close" finished-at="2024-04-25T10:38:39 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:Testng.Testcases@131774fe]" started-at="2024-04-25T10:38:39 IST" name="launchbrowser" finished-at="2024-04-25T10:38:50 IST" duration-ms="11272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="Getcurrenturl()[pri:0, instance:Testng.Testcases@131774fe]" started-at="2024-04-25T10:38:50 IST" name="Getcurrenturl" finished-at="2024-04-25T10:38:50 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getcurrenturl -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testng.Testcases@131774fe]" started-at="2024-04-25T10:38:50 IST" name="close" finished-at="2024-04-25T10:38:51 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testng.Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
