@@ -5,7 +5,7 @@
   <parameter name ="title" value="Log in to Facebook"/>
   
     <classes>
-      <class name="Testng.TestCases"/>
+      <class name="Testng.Testcases"/>
     </classes>
   </test>
  
